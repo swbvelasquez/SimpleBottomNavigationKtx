@@ -9,9 +9,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/lyContentMain"
-        android:background="@color/purple_500"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
     <com.google.android.material.bottomappbar.BottomAppBar
